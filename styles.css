@@ -1,0 +1,40 @@
+body{
+    background: skyblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    padding: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    text-align: center;
+    align-items: center;
+
+}
+button{
+    size: 5px;
+    background-color: brown;
+    font-weight: bold;
+    border-radius: 7px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    color: white;
+    border: none;
+    display: flex;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    -webkit-animation: forwards;
+    -webkit-transition-property: calc(45deg);
+}
+
+button :hover{
+    padding: 7px;
+    background-color: aliceblue;
+}
